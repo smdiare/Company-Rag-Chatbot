@@ -1,0 +1,26 @@
+# 🧠 Core
+langchain
+openai
+tiktoken
+python-dotenv
+
+# 📊 Vector DB
+pinecone
+
+# 📄 PDF Parsing
+pypdf
+
+# 🔗 Google Gemini (via langchain community)
+langchain-community
+
+# 🌐 Web App
+streamlit
+
+# ☁️ Supabase (Postgres backend)
+supabase
+
+# 📁 Google Drive (Optional for auto PDF sync)
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2

@@ -1,0 +1,4 @@
+.env
+venv/
+utils/drive_service_account.json
+rag-chatbot/utils/drive_service_account.json
