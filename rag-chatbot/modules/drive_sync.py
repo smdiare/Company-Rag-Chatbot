@@ -45,7 +45,7 @@ def save_processed_files(file_list):
 
 def download_drive_files():
     print("🔐 Authenticating Google Drive service account...")
-    creds = service_account.Credentials.from_service_account_file(service_account_info)
+    creds = creds = service_account.Credentials.from_service_account_info(service_account_info)
     drive_service = build("drive", "v3", credentials=creds)
 
     processed_files = load_processed_files()
